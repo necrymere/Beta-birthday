@@ -1,4 +1,4 @@
-# Beta-birthday
+# Beta-birthday-site
 Yet another site for my dear dear friend Beta.
 Quite a basic site in my opinion, made in a few hours but still I like it.
 # Features:
