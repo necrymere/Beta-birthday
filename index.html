@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width", initial-scale="1.0">
+        <title>HAPPY BIRTHDAY BETAAA!!!</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com crossorigin">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Homemade+Apple&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="lock-screen">
+            <div class="lock-container title-font">
+                <h1>Enter Password</h1>
+                <input type="password" id="password-input" placeholder="Hint: Festival where we met">
+                <br>
+                <button type="button" onclick="checkPassword()">UNLOCK</button>
+            </div>
+        </div>
+        <div id="content-wrapper">
+
+            <div class="hero-container">
+              <a href="music.html" class="hero-card-link">
+                <div class="hero-card">
+                    <img src="hero.jpg" alt="Birthday Girl">
+                </div>
+              </a>
+                <div class="birthday-text title-font">BIRTHDAY GIRL<3</div>
+            </div>
+            <div class="gallery-container">
+                <div class="polaroid" onclick="zoomPolaroid(this)">
+                    <div class="photo-wrapper">
+                        <img src="photo1.png" alt="Memory 1">
+                    </div>
+                    <div class="caption handwriten-font">placeholder</div>
+                </div>
+                <div class="polaroid" onclick="zoomPolaroid(this)">
+                    <div class="photo-wrapper">
+                        <img src="photo2.png" alt="Memory 1">
+                    </div>
+                    <div class="caption handwriten-font">placeholder</div>
+                </div><div class="polaroid" onclick="zoomPolaroid(this)">
+                    <div class="photo-wrapper">
+                        <img src="photo3.png" alt="Memory 1">
+                    </div>
+                    <div class="caption handwriten-font">placeholder</div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
