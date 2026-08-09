@@ -1,4 +1,4 @@
-const CORRECT_PASSWORD="CFF10";
+const CORRECT_PASSWORD="password";
 function checkPassword(){
     const inputField = document.getElementById("password-input");
     if(!inputField) return;
